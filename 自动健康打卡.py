@@ -7,9 +7,8 @@ import random
 import requests
 from bs4 import BeautifulSoup
 
-def sendMessage(msg):
-    print(msg)
-    # 如果需要通知提醒，请在此处添加邮箱、或QQ机器人、微信企业号、微信公众号、pushplus等通知提醒功能的代码
+sendMessage = print
+# 如果需要通知提醒，请在此处添加邮箱、或QQ机器人、微信企业号、微信公众号、pushplus等通知提醒功能的代码
 
 def healthFill(username, password):
     loginUrl = 'https://u.njtech.edu.cn/cas/login?service=http://pdc.njtech.edu.cn/#/dform/genericForm/wbfjIwyK'
